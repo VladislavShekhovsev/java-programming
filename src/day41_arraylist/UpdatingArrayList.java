@@ -3,7 +3,7 @@ package day41_arraylist;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UpdatingArrayList {
+public class  UpdatingArrayList {
     public static void main(String[] args) {
         // List cars
         List<String> myCars = new ArrayList<>();

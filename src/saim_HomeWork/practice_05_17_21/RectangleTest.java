@@ -7,6 +7,7 @@ public class RectangleTest {
         rectangle.setDimensions(5, 3);
         System.out.println(rectangle.getArea());
         System.out.println(rectangle);
+        System.out.println(rectangle);
 
         Rectangle rectangle2 = new Rectangle();
         System.out.println(rectangle2.getArea());
