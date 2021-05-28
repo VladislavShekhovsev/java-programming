@@ -6,10 +6,24 @@ public class Address {
    private String state;
    private String zipCode;
    private String country ="USA";
-
+   //constructor1
+    public Address(){
+     String street ="Unknown";
+     String city="Unknown";
+     String state="Unknown";
+     String zipCode="Unknown";
+    }
+    // constructor2
+    public Address(String street,String city,String state, String zipCode){
+        this.street = street;
+        this.city=city;
+        this.state=state;
+        this.zipCode=zipCode;
+    }
+    // constructor can be  overloaded
     @Override
     public String toString() {
-        return state+", "+city+", "+state+", "+zipCode;
+        return street+", "+city+", "+state+" "+zipCode;
     }
 
     public String getStreet() {
@@ -17,7 +31,10 @@ public class Address {
     }
 
     public void setStreet(String street) {
-        this.street = street;
+        if(street.isEmpty()||street.length()>50){
+            System.out.println("Error: invalid street");
+        }else{
+        this.street = street;}
 
     }
 
