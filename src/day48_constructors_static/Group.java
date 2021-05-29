@@ -10,6 +10,10 @@ public class Group {
         this.groupName ="unknown";
         names= new ArrayList<>();
     }
+    Group(String name){
+        this.groupName =name;
+        names= new ArrayList<>();
+    }
     @Override
     public String toString() {
         return "Group{" +
@@ -26,11 +30,11 @@ public class Group {
         this.groupName = groupName;
     }
 
-    public List<String> getNames() {
+    public List<String> getMembers() {
         return names;
     }
 
-    public void setNames(List<String> names) {
+    public void setMembers(List<String> names) {
         this.names = names;
     }
 
