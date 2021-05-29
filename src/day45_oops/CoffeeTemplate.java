@@ -1,4 +1,4 @@
-package day_45_oops;
+package day45_oops;
 
 public class CoffeeTemplate {
     String typeOfCoffee;

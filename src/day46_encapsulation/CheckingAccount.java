@@ -1,4 +1,4 @@
-package day_46_encapsulation;
+package day46_encapsulation;
 
 public class CheckingAccount {
     private long balance;
