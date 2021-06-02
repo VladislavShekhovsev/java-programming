@@ -1,4 +1,4 @@
-package saim_HomeWork.Ppractice_06_01_2021;
+package saim_HomeWork.practice_06_01_2021;
 
 public class Developer {
         private String name;

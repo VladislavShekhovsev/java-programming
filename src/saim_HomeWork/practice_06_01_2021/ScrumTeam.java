@@ -30,7 +30,7 @@ package OfficeHours.Practice_06_01_2021;
  */
 
 
-import saim_HomeWork.Ppractice_06_01_2021.Developer;
+import saim_HomeWork.practice_06_01_2021.Developer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
