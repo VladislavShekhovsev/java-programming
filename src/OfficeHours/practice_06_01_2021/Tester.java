@@ -76,6 +76,8 @@ public class Tester {
         this.salary = salary;
     }
 
+
+
     @Override
     public String toString() {
         return "Tester{" +
